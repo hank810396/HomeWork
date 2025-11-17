@@ -43,42 +43,46 @@
             // 
             // MonthPaytext
             // 
+            this.MonthPaytext.BackColor = System.Drawing.SystemColors.MenuBar;
             this.MonthPaytext.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.MonthPaytext.ForeColor = System.Drawing.SystemColors.WindowText;
             this.MonthPaytext.Location = new System.Drawing.Point(221, 212);
             this.MonthPaytext.Name = "MonthPaytext";
             this.MonthPaytext.Size = new System.Drawing.Size(267, 34);
             this.MonthPaytext.TabIndex = 15;
-            this.MonthPaytext.Visible = false;
             // 
             // Ratetext2
             // 
+            this.Ratetext2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.Ratetext2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Ratetext2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Ratetext2.Location = new System.Drawing.Point(221, 159);
             this.Ratetext2.Name = "Ratetext2";
             this.Ratetext2.Size = new System.Drawing.Size(267, 34);
             this.Ratetext2.TabIndex = 14;
             this.Ratetext2.Text = "10";
-            this.Ratetext2.Visible = false;
             // 
             // Yeartext2
             // 
+            this.Yeartext2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.Yeartext2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Yeartext2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Yeartext2.Location = new System.Drawing.Point(221, 106);
             this.Yeartext2.Name = "Yeartext2";
             this.Yeartext2.Size = new System.Drawing.Size(267, 34);
             this.Yeartext2.TabIndex = 13;
             this.Yeartext2.Text = "2";
-            this.Yeartext2.Visible = false;
             // 
             // Moneytext2
             // 
+            this.Moneytext2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.Moneytext2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Moneytext2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Moneytext2.Location = new System.Drawing.Point(221, 53);
             this.Moneytext2.Name = "Moneytext2";
             this.Moneytext2.Size = new System.Drawing.Size(267, 34);
             this.Moneytext2.TabIndex = 12;
             this.Moneytext2.Text = "100000";
-            this.Moneytext2.Visible = false;
             // 
             // label4
             // 
@@ -132,12 +136,13 @@
             // 
             // TotalPaytext
             // 
+            this.TotalPaytext.BackColor = System.Drawing.SystemColors.MenuBar;
             this.TotalPaytext.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.TotalPaytext.ForeColor = System.Drawing.SystemColors.WindowText;
             this.TotalPaytext.Location = new System.Drawing.Point(221, 265);
             this.TotalPaytext.Name = "TotalPaytext";
             this.TotalPaytext.Size = new System.Drawing.Size(267, 34);
             this.TotalPaytext.TabIndex = 17;
-            this.TotalPaytext.Visible = false;
             // 
             // Emailbutton
             // 
@@ -149,7 +154,7 @@
             this.Emailbutton.Text = "Email";
             this.Emailbutton.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -165,7 +170,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Report";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

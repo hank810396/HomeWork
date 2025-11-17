@@ -115,6 +115,7 @@
             this.DownPaytext.Name = "DownPaytext";
             this.DownPaytext.Size = new System.Drawing.Size(267, 34);
             this.DownPaytext.TabIndex = 7;
+            this.DownPaytext.Text = "0";
             // 
             // PMTbutton
             // 
@@ -136,6 +137,7 @@
             this.Totalbutton.TabIndex = 9;
             this.Totalbutton.Text = "總付款";
             this.Totalbutton.UseVisualStyleBackColor = true;
+            this.Totalbutton.Click += new System.EventHandler(this.Totalbutton_Click);
             // 
             // Reportbutton
             // 
@@ -146,6 +148,7 @@
             this.Reportbutton.TabIndex = 10;
             this.Reportbutton.Text = "Report";
             this.Reportbutton.UseVisualStyleBackColor = true;
+            this.Reportbutton.Click += new System.EventHandler(this.Reportbutton_Click);
             // 
             // Loan
             // 
