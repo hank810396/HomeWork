@@ -1,13 +1,7 @@
 ﻿using StudentStructForm;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using LoanAmountForm;
 
 namespace WindowsFormsApp1
 {
@@ -40,6 +34,12 @@ namespace WindowsFormsApp1
         {
             Calculator cla = new Calculator();
             cla.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var loan = new Loan();
+            loan.Show();
         }
     }
 }
