@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Runtime.Remoting.Contexts;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace LoanAmountForm
 {
@@ -63,7 +63,7 @@ namespace LoanAmountForm
 
         private void Reportbutton_Click(object sender, EventArgs e)
         {
-            LoanReport Report = new LoanReport
+            var Report = new Report 
             (
            Moneytext.Text,
            Yeartext.Text,
